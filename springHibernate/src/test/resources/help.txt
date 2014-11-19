@@ -1,0 +1,7 @@
+http://localhost/springHibernate/show
+
+需要修改的：
+包名，项目名
+applicationContext.xml
+	<prop key="hibernate.hbm2ddl.auto">update</prop><!-- none -->
+	<property name="url" value="jdbc:mysql://localhost:3306/hibernate" />
