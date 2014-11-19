@@ -1,4 +1,4 @@
-package com.sassds.service.impl;
+package com.coldboold.service.impl;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.sassds.dao.IUserDao;
-import com.sassds.model.User;
-import com.sassds.service.IUserService;
+import com.coldboold.dao.IUserDao;
+import com.coldboold.model.User;
+import com.coldboold.service.IUserService;
 
 @Service
 @Transactional

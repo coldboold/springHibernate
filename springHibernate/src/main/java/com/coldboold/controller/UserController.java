@@ -1,4 +1,4 @@
-package com.sassds.controller;
+package com.coldboold.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.sassds.model.User;
-import com.sassds.service.IUserService;
+import com.coldboold.model.User;
+import com.coldboold.service.IUserService;
 
 @Controller
 public class UserController {

@@ -1,4 +1,4 @@
-package com.sassds.model;
+package com.coldboold.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,8 +1,8 @@
-package com.sassds.service;
+package com.coldboold.service;
 
 import java.util.List;
 
-import com.sassds.model.User;
+import com.coldboold.model.User;
 
 public interface IUserService {
 	public List<User> findAllUsers();

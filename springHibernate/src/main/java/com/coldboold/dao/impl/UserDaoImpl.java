@@ -1,4 +1,4 @@
-package com.sassds.dao.impl;
+package com.coldboold.dao.impl;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.sassds.dao.IUserDao;
-import com.sassds.model.User;
+import com.coldboold.dao.IUserDao;
+import com.coldboold.model.User;
 
 @Repository
 public class UserDaoImpl implements IUserDao {

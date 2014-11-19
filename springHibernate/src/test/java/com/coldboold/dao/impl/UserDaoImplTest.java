@@ -1,4 +1,4 @@
-package com.sassds.dao.impl;
+package com.coldboold.dao.impl;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -11,8 +11,8 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.sassds.dao.IUserDao;
-import com.sassds.model.User;
+import com.coldboold.dao.IUserDao;
+import com.coldboold.model.User;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "file:src/main/webapp/WEB-INF/applicationContext.xml" })
@@ -51,7 +51,7 @@ public class UserDaoImplTest extends AbstractJUnit4SpringContextTests{
 		user.setAge(21);
 		user.setUsername("u22");
 		user.setPassword("p22");
-		dao.testRollback(user);
+//		dao.testRollback(user);
 		System.out.println(12321);
 	}
 	
